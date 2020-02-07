@@ -1,6 +1,6 @@
 import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
-import { Question } from 'src/questions/question.entity';
-import { Client } from 'src/client/client.entity';
+import { Question } from '../questions/question.entity';
+import { Client } from '../client/client.entity';
 
 @Entity()
 export class Answer extends BaseEntity {

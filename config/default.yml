@@ -3,8 +3,8 @@ server:
 
 db:
   type: 'mysql'
-  port: 3306
-  database: 'angular_test'
+  port: ''
+  database: 'heroku_6ceba058f65bf32'
 
 jwt:
   expiresIn: 3600

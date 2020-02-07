@@ -2,4 +2,7 @@ server:
   origin: https://dbsoftware.github.io/test/
 
 db:
-  synchronize: false
+  host: 'us-cdbr-iron-east-04.cleardb.net'
+  username: 'bbafffb6f68de2'
+  password: '80e7a72a'
+  synchronize: true

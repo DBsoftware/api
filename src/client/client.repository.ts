@@ -3,7 +3,7 @@ import { EntityRepository, Repository } from 'typeorm';
 import { CreateClientDto } from './dto/create-client.dto';
 import { GetClientFilterDto } from './dto/get-client-filter.dto';
 import { Logger, InternalServerErrorException } from '@nestjs/common';
-import { Answer } from 'src/answers/answer.entity';
+import { Answer } from '../answers/answer.entity';
 
 @EntityRepository(Client)
 export class ClientRepository extends Repository<Client> {
